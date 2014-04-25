@@ -7961,6 +7961,7 @@ button.close {
   }
 }
 /* line 10, ../sass/screen.scss */
-.lyrics {
+#lyrics {
   font-size: 2em;
+  overflow: scroll;
 }
