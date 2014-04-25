@@ -1,4 +1,0 @@
-lyrical
-=======
-
-Lyric scroller 
