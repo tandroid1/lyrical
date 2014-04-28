@@ -1,7 +1,7 @@
 $(function () {
 	var lyrics = $(document).find("#lyrics");
 
-	var spanInserted = lyrics.html().split(" ").join(" </span><span>");
+	var spanInserted = lyrics.html().split(" ").join(" <span></span>");
 	var wrapped = ("<span>").concat(spanInserted, "</span>");
 	lyrics.html(wrapped);
 	var refPos = lyrics.find('span:first-child').position().top;
