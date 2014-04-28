@@ -7,7 +7,7 @@ $(function () {
 
 	// Build our search query based on form input
 	searchButton.submit(function(e) {
-		var search = $("input[name=search").val(),
+		var search = $("input[name=search]").val(),			
 		 	searchQuery = 'https://ws.spotify.com/search/1/track.json?q=' + search;
 		console.log(searchQuery);
 		request = $.ajax(searchQuery).done(function () {
